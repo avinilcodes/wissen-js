@@ -1,0 +1,23 @@
+{
+  "name": "5-web-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "avinil",
+  "license": "ISC",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --config webpack.config.dev.js"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "style-loader": "^0.23.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
